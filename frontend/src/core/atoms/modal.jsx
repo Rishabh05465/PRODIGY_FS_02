@@ -32,8 +32,7 @@ const styles = {
     background: '#fff',
     padding: '20px',
     borderRadius: '10px',
-    maxWidth: '500px',
-    width: '100%',
+    width: '350px',
     position: 'relative'
   },
   closeBtn: {
