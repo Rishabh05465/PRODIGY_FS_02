@@ -1,0 +1,212 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(0, 0, 0, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.main_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(180deg, #1DA1F2 0%, #0056D2 100%);
+}
+
+.login_card{
+  border-radius: 15px;
+  min-height: 350px;
+  min-width: 580px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.053);
+  overflow: hidden;
+  background-color: white;
+}
+.circle_tl{
+  height: 350px;
+  width: 350px;
+  background: radial-gradient(circle, #0096FF 0%, #004B9A 100%);
+  border-radius: 50%;
+  position: absolute;
+  top: -70px;
+  left: -60px;
+}
+
+.circle_bl{
+  height: 200px;
+  width: 200px;
+  background: radial-gradient(circle, #0088FF 0%, #003C8F 100%); 
+  position: absolute;
+  bottom: -70px;
+  left: -80px;
+  border-radius: 50%;
+}
+.circle{
+  height: 150px;
+  width: 150px;
+  background: radial-gradient(circle, #00A8FF 0%, #0050B8 100%);
+  position: absolute;
+  border-radius: 50%;
+  left: 150px;
+  bottom: 30px;
+}
+.circle_br{
+  height: 130px;
+  width: 130px;
+  background: radial-gradient(circle, #00B4FF 0%, #0044A8 100%);
+  position: absolute;
+  border-radius: 50%;
+  right: -50px;
+  bottom: -50px;
+}
+h2{
+  letter-spacing: 1px;
+  margin: 20px 0px 10px 0px;
+}
+.login_message{
+  position: absolute;
+  color: white;
+  width: 200px;
+  left: 50px;
+  font-size: 15px;
+
+}
+.login_form{
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  right: 60px;
+  width: 200px;
+}
+hr{
+  flex: 1;
+  border: none;
+  border-top: solid 1px black;
+}
+.or{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.or > div{
+  padding: 0px 6px;
+}
+.sign_up{
+  font-size: 12px;
+}
+.text_box{
+  background-color: rgb(240, 238, 238);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+.text_box input{
+  border: none;
+  background: none;
+  margin-left: 5px;
+  outline: none;
+}
+.login_form button{
+  width: 100%;
+  padding: 7px 0px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #0056D2;
+  color: white;
+}
+.Bg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(180deg, #1DA1F2 0%, #0056D2 100%);
+}
+.EmpCard{
+  background-color: white;
+  width: 80%;
+  height: 70%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.Header{
+  height: 70px;
+  width: 100%;
+  margin-top: -70px;
+  margin-bottom: 40px;
+  background-color: #1283e5;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.Header button{
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  height: 30px;
+  margin-right: 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+.Header h3{
+  color: white;
+  margin-left: 30px;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+.main > .text_box{
+  width: 65%;
+  margin-top: 25px;
+  margin-right: 30px;
+  background-color: #e0e1e1;
+}
+.main h2{
+  margin-left: 30px;
+}
+.userinfo{
+  margin-top: 30px;
+  margin-left: 100px;
+  width: 80%;
+  text-align: left;
+}
+.userinfo th{
+  padding: 10px;
+  background-color: #f9fafb;
+}
+tbody tr:nth-child(odd){
+  background-color: #00A8FF;
+}
+.add{
+  display: flex;
+  justify-content: right;
+}
+.add button{
+  margin-right: 50px;
+  border: none;
+  background-color: #00A8FF;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+.invalid{
+  color: red;
+}
